@@ -1,4 +1,5 @@
-print('todo numero elevado ao cubo é igual há soma de uma sequência de números ímpares')
+'''todo numero elevado ao cubo é igual há soma de uma sequência de números ímpares'''
+
 m = int(input('digite um numero inteiro: '))
 num = 1
 lista = [num]
