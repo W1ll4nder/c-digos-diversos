@@ -15,8 +15,6 @@ while len(inimigo)>0 and vida>0:
             d = random.randint(10, 15)
             print('vc causou {} de dano ao inimigo {} !'.format(d, selecionado))
             selecionado[1] -= d
-            print(inimigo)
-            print(selecionado)
             for l in range(1, len(inimigo) + 1):
                 dano = random.randint(3, 20)
                 lista = [1,1,1,0]
